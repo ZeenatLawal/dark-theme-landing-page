@@ -1,0 +1,145 @@
+body {
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    background-color: hsl(217, 28%, 15%);
+}
+header{
+    background-color: hsl(217, 28%, 15%);
+    margin-bottom: 70px;
+}
+#logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+nav {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+.navlink{
+    color: hsl(0, 0%, 100%);
+    padding: 0px 26px;
+    text-decoration: none;
+    
+}
+main {
+    background-color: hsl(218, 28%, 13%);
+    padding-bottom: 150px;
+}
+#intro{
+    background-color: hsl(217, 28%, 15%);
+    text-align: center;
+}
+#main-img, #middle-img {
+    width: 50%;
+}
+#start {
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: hsl(0, 0%, 100%);
+    padding: 14px 70px;
+    margin: 10px 0px 50px 0px;
+    border-radius: 50px;
+    border: 0px transparent;
+    outline: none;
+}
+#products {
+    display: grid;
+    grid-template-columns: 320px 320px;
+    grid-column-gap: 150px;
+    grid-row-gap: 50px;
+    text-align: center;
+    margin: 140px 230px;
+}
+#productive {
+    display: flex;
+    align-items: center;   
+    margin: 100px 80px;
+}
+#works {
+    margin-left: 40px;
+}
+#fylo {
+    color: hsl(176, 68%, 64%);
+}
+#quotes {
+    position: absolute;
+    left: 30px;
+    top: 343%;
+    margin-left: 80px;
+}
+#testimonials {
+    margin: 100px 100px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+.profiles {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(219, 30%, 18%);
+    padding: 20px;
+    margin: 20px;
+}
+.profile-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.figure {
+    display: flex;
+    flex-direction: column;
+}
+#email{
+    background-color: hsl(219, 30%, 18%);
+    padding: 20px 40px;
+    margin: 80px 250px 0px 250px;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgba(139, 132, 132, 0);
+    position: absolute;
+    left: 30px;
+    top: 400%;
+}
+#email-input {
+    border-radius: 50px;
+    border: none;
+    padding: 14px 200px 14px 20px;
+    margin: 10px 15px 50px 0px;
+    outline: none;
+}
+button {
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: hsl(0, 0%, 100%);
+    padding: 14px 20px;
+    margin: 10px 0px 50px 0px;
+    border-radius: 50px;
+    border: 0px transparent;
+    outline: none;
+}
+footer {
+    background-color: hsl(216, 53%, 9%);
+}
+#footer-logo {
+    margin: 170px 100px 0px 100px;
+}
+#footer-text{
+    margin: 50px 100px 0px 100px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 280px 150px 150px 150px 150px;
+    grid-column-gap: 50px;
+}
+#footer-location {
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+#footer-phone {
+    float: left;
+}
+#footer-email {
+    float: left;
+}
