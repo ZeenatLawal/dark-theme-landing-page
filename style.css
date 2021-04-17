@@ -175,3 +175,7 @@ footer {
   float: left;
   padding-right: 10px;
 }
+
+.img-width {
+  width: 20px;
+}
