@@ -1,54 +1,65 @@
 body {
-    color: hsl(0, 0%, 100%);
-    font-size: 14px;
-    margin: auto;
-    font-family: 'Raleway', sans-serif;
-    background-color: hsl(217, 28%, 15%);
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  background-color: hsl(217, 28%, 15%);
 }
-header{
-    background-color: hsl(217, 28%, 15%);
-    margin-bottom: 70px;
+
+header {
+  background-color: hsl(217, 28%, 15%);
+  margin-bottom: 70px;
 }
+
 #logo {
-    position: absolute;
-    top: 50px;
-    left: 50px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
 }
+
 nav {
-    text-align: right;
-    margin-right: 30px;
-    margin-top: 50px;
+  text-align: right;
+  margin-right: 30px;
+  margin-top: 50px;
 }
-.navlink{
-    color: hsl(0, 0%, 100%);
-    padding: 0px 26px;
-    text-decoration: none;
+
+.navlink {
+  color: hsl(0, 0%, 100%);
+  padding: 0 26px;
+  text-decoration: none;
 }
+
 .navlink:hover {
-    text-decoration: underline;
-    font-weight: bold;
+  text-decoration: underline;
+  font-weight: bold;
 }
+
 main {
-    background-color: hsl(218, 28%, 13%);
-    padding-bottom: 10px;
+  background-color: hsl(218, 28%, 13%);
+  padding-bottom: 10px;
 }
-#intro{
-    background-color: hsl(217, 28%, 15%);
-    text-align: center;
+
+#intro {
+  background-color: hsl(217, 28%, 15%);
+  text-align: center;
 }
-#main-img, #middle-img {
-    width: 50%;
+
+#main-img,
+#middle-img {
+  width: 50%;
 }
+
 #start {
-    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
-    color: hsl(0, 0%, 100%);
-    padding: 14px 70px;
-    margin: 10px 0px 50px 0px;
-    border-radius: 50px;
-    border: none;
-    outline: none;
-    cursor: pointer;
+  background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  color: hsl(0, 0%, 100%);
+  padding: 14px 70px;
+  margin: 10px 0 50px 0;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
+
 #products {
     display: grid;
     grid-template-columns: 320px 320px;
