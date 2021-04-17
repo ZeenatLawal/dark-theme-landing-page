@@ -61,35 +61,41 @@ main {
 }
 
 #products {
-    display: grid;
-    grid-template-columns: 320px 320px;
-    grid-column-gap: 150px;
-    grid-row-gap: 50px;
-    text-align: center;
-    margin: 140px 230px;
+  display: grid;
+  grid-template-columns: 320px 320px;
+  grid-column-gap: 150px;
+  grid-row-gap: 50px;
+  text-align: center;
+  margin: 140px 230px;
 }
+
 #productive {
-    display: flex;
-    align-items: center;   
-    margin: 100px 80px;
+  display: flex;
+  align-items: center;   
+  margin: 100px 80px;
 }
+
 #works {
-    margin-left: 40px;
+  margin-left: 40px;
 }
+
 #fylo {
-    color: hsl(176, 68%, 64%);
+  color: hsl(176, 68%, 64%);
 }
+
 #fylo:hover {
-    color: white;
+  color: white;
 }
+
 #quotes {
-    margin-left: 80px;
+  margin-left: 80px;
 }
+
 #testimonials {
-    margin: 0px 100px 100px 100px;
-    display: flex;
-    flex-direction: row;
-    font-size: 12px;
+  margin: 0 100px 100px 100px;
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
 }
 .profiles {
     display: flex;
