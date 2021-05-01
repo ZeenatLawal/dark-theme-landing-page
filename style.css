@@ -179,3 +179,14 @@ footer {
 .img-width {
   width: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  #products {
+    display: grid;
+    grid-template-columns: 320px;
+    grid-column-gap: 150px;
+    grid-row-gap: 50px;
+    text-align: center;
+    margin: 140px 230px;
+  }
+}
