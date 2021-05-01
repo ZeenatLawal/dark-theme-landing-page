@@ -62,7 +62,7 @@ main {
 
 #products {
   display: grid;
-  grid-template-columns: 320px 320px;
+  grid-template-columns: 320px;
   grid-column-gap: 150px;
   grid-row-gap: 50px;
   text-align: center;
@@ -180,7 +180,7 @@ footer {
   width: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   #products {
     display: grid;
     grid-template-columns: 320px;
@@ -188,5 +188,181 @@ footer {
     grid-row-gap: 50px;
     text-align: center;
     margin: 140px 230px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    background-color: hsl(217, 28%, 15%);
+    margin-bottom: 70px;
+  }
+
+  #logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+
+  nav {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 50px;
+  }
+
+  .navlink {
+    color: hsl(0, 0%, 100%);
+    padding: 0 26px;
+    text-decoration: none;
+  }
+
+  .navlink:hover {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  main {
+    background-color: hsl(218, 28%, 13%);
+    padding-bottom: 10px;
+  }
+
+  #intro {
+    background-color: hsl(217, 28%, 15%);
+    text-align: center;
+  }
+
+  #main-img,
+  #middle-img {
+    width: 50%;
+  }
+
+  #start {
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: hsl(0, 0%, 100%);
+    padding: 14px 70px;
+    margin: 10px 0 50px 0;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  #products {
+    display: grid;
+    grid-template-columns: 320px 320px;
+    grid-column-gap: 150px;
+    grid-row-gap: 50px;
+    text-align: center;
+    margin: 140px 230px;
+  }
+
+  #productive {
+    display: flex;
+    align-items: center;
+    margin: 100px 80px;
+  }
+
+  #works {
+    margin-left: 40px;
+  }
+
+  #fylo {
+    color: hsl(176, 68%, 64%);
+  }
+
+  #fylo:hover {
+    color: white;
+  }
+
+  #quotes {
+    margin-left: 80px;
+  }
+
+  #testimonials {
+    margin: 0 100px 100px 100px;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+  }
+
+  .profiles {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(219, 30%, 18%);
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .profile-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+
+  .figure {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #email {
+    background-color: hsl(219, 30%, 18%);
+    padding: 20px 40px;
+    margin: 0 250px;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgba(139, 132, 132, 0);
+  }
+
+  #email-input {
+    border-radius: 50px;
+    border: none;
+    padding: 14px 200px 14px 20px;
+    margin: 10px 15px 50px 0;
+    outline: none;
+  }
+
+  #free {
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: hsl(0, 0%, 100%);
+    padding: 14px 20px;
+    margin: 10px 0 50px 0;
+    border-radius: 50px;
+    border: 0 transparent;
+    outline: none;
+    cursor: pointer;
+  }
+
+  footer {
+    background-color: hsl(216, 53%, 9%);
+  }
+
+  #footer-logo {
+    margin: 40px 100px 0 100px;
+  }
+
+  #footer-text {
+    margin: 50px 100px 0 100px;
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns: 280px 200px 100px 100px 100px;
+    grid-column-gap: 80px;
+  }
+
+  #footer-location {
+    float: left;
+    margin-top: 20px;
+    padding-right: 10px;
+  }
+
+  #footer-phone {
+    float: left;
+    padding-right: 10px;
+  }
+
+  #footer-email {
+    float: left;
+    padding-right: 10px;
+  }
+
+  .img-width {
+    width: 20px;
   }
 }
